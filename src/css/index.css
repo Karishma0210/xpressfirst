@@ -126,7 +126,7 @@ body{
 
 /*=========SERVICES========*/
 #services {
-	margin: 25px;
+	/*margin: 25px;*/
 	align-items: center;
 }
 
@@ -136,7 +136,7 @@ body{
 }
 
 #services .sub-section-services {
-	margin: 25px 0px;
+	/*margin: 25px 0px;*/
 	width: 100%;
 }
 
@@ -147,7 +147,7 @@ body{
 	max-width: 550px;
 	letter-spacing: 0em;
 	text-align: left;
-	margin: 20px 0px;
+	/*margin: 20px 0px;*/
 
 }
 
@@ -181,7 +181,7 @@ body{
 }
 
 .services-right-text {
-	margin: 0px 35px;
+	/*margin: 0px 35px;*/
     max-width: 600px;
 }
 
@@ -192,7 +192,7 @@ body{
 .services-left-text {
 	max-width: 550px;
 	padding: 0px;
-	margin-right: 65px;
+	/*margin-right: 65px;*/
 	/*border: red solid 5px;*/
 }
 
@@ -216,16 +216,36 @@ body{
 	max-width: 950px;
 }
 
+#our-clients {
+	background-color: #232C6D;
+	padding: 30px 0px;
+	color: #fff;
+}
+
 .client-logo {
 	/*max-width: 100%;*/
 	/*max-height: 200px;*/
-	background-color: red;
+	/*width: 100%;*/
 }
 
 .our-clients-container {
-	width: 100%;
+	margin: 25px 80px;
 }
 
 .our-clients-container .row {
 	width: 100%;
+	padding: 20px 0px;
 }
+
+/* =============CONTACT US================== */
+
+#contact-us {
+	background-color: #fff;
+	padding: 25px 0px;
+	
+}
+
+#contact-us .sub-heading {
+	color: #232C6D;
+}
+
